@@ -22,15 +22,15 @@ In Fleague,There will be a admin and can be any no of users.
 
 ## How to start with Fleague:-
 ### For Admin:-
- Clone my project and run "npm start i" to create node_modules.
- Create a google firebase account and create a project of any name and get the Api Key. Add that Api Key to the fireBase Config File.
-To setup fleague, Go to Admin>Enter admin password - "password"(Default Password).
- Admin Password can be changed in Admin File.
- First Click on the Setup button to setup the fleague.
- Admin should update the team everyday and should set the winTeam and reset after every match.
- Note:WinTeam should'nt be Submit more than one time.
- Calculate Score is the button which will be useful if you find any wrong data with the users score.
- You can stop accepting responses from users by clicking the button "Stop accepting Responses" and can accept again by clicking "Accept Responses".
+<div>Clone my project and run "npm start i" to create node_modules.</div>
+<div>Create a google firebase account and create a project of any name and get the Api Key. Add that Api Key to the fireBase Config File.</div>
+<div>To setup fleague, Go to Admin>Enter admin password - "password"(Default Password).</div>
+<div>Admin Password can be changed in Admin File.</div>
+<div>First Click on the Setup button to setup the fleague.</div>
+<div>Admin should update the team everyday and should set the winTeam and reset after every match.</div>
+<div>Note:WinTeam should'nt be Submit more than one time.</div>
+<div>Calculate Score is the button which will be useful if you find any wrong data with the users score.</div>
+<div>You can stop accepting responses from users by clicking the button "Stop accepting Responses" and can accept again by clicking "Accept Responses".</div>
 
 ### For User:-
 Register yourself and login to select the team thats it.
