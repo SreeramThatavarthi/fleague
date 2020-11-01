@@ -85,7 +85,6 @@ const Admin=()=>{
     const handleScore=(e)=>{    
         e.preventDefault();
         //Getting the selected team of every user and adding the match to the won matches if user win the match
-        toast("Successfully Updated");
         Object.entries(selectedTeam).map(([key,value])=>{
             console.log(value.value);
                 if(value.value==winteam){
@@ -127,6 +126,9 @@ const Admin=()=>{
         if(adminpass=="password"){
             //if the password is correct then setting the state to true to access this page
           setISAdmin(true)
+        }
+        else{
+            toast("Your admin password is incorrect",{type:"error"});
         }
       }
 

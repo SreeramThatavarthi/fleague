@@ -13,10 +13,10 @@ const SetUp=()=>{
           });
     }
     return(
-        <>
+        <div style={{margin:"20px"}}>
         <h3>SetUp Page</h3>
         <button type="submit" class="btn btn-primary" onClick={handleSubmit} style={{marginTop:"10px"}}>Set Up Firebase</button>
-        </>
+        </div>
         
         //Work in Progress
     )
