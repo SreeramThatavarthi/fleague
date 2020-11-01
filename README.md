@@ -4,7 +4,7 @@
 
 ## Overview 👀
 
-![](./src/overview.jpeg)
+![](./overview.jpeg)
 
 ## What is Fleague 🤔
 
