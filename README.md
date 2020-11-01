@@ -4,7 +4,7 @@
 
 ## Overview 👀
 <p>
-<img src="src/overview.jpeg" style="border-radius:8px">
+<img src="src/Overview.jpeg" style="border-radius:8px">
 </p>
 
 ## What is Fleague 🤔
