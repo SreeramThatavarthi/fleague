@@ -22,6 +22,7 @@ In Fleague,There will be a admin and can be any no of users.
 
 ## How to start with Fleague:-
 ### For Admin:-
+<div>
 <div>1.Clone my project and run "npm start i" to create node_modules.</div>
 
 <div>2.Create a google firebase account and create a project of any name and get the Api Key. Add that Api Key to the fireBase Config File.</div>
@@ -39,7 +40,7 @@ In Fleague,There will be a admin and can be any no of users.
 <div>7.Calculate Score is the button which will be useful if you find any wrong data with the users score.</div>
 
 <div>8.You can stop accepting responses from users by clicking the button "Stop accepting Responses" and can accept again by clicking "Accept Responses".</div>
-
+</div>
 ### For User:-
 Register yourself and login to select the team thats it.
 
