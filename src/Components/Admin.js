@@ -1,11 +1,13 @@
 import React,{useEffect, useState} from "react";
 import {toast} from "react-toastify"; 
 import firebase from "firebase/app";
+import { useHistory } from "react-router-dom";
 import {v4} from 'uuid';
 const Admin=()=>{
     let val;
     const [isAdmin,setISAdmin]=useState(false);
     const [accept,setAccept]=useState("");
+    let history = useHistory();
     const [team1,setTeam1]=useState("");
     const [adminpass,setAdminpass]=useState("");
     const [team2,setTeam2]=useState("");
@@ -92,7 +94,8 @@ const Admin=()=>{
                     )
             }
        
-    } );
+    });
+    getScore();
 }  
    //Setting up the today's match teams
     const handleSubmit=()=>{
@@ -158,6 +161,10 @@ const Admin=()=>{
               })
     }
 
+    const redirectToSetUp=()=>{
+        history.push('/setup');
+    }
+
     useEffect(()=>{getData()},[]);
 
     return(
@@ -181,13 +188,17 @@ const Admin=()=>{
         }
         </div>
         <div>
-        <button type="submit" class="btn btn-primary" onClick={handleReset} style={{marginTop:"10px"}}>Reset</button>
-
+            <button type="submit" class="btn btn-primary" onClick={handleReset} style={{marginTop:"10px"}}>Reset</button>
         </div>
+
         <div>
-        <button type="submit" class="btn btn-primary" onClick={getScore} style={{marginTop:"10px"}}>Calculate Score</button>
-
+            <button type="submit" class="btn btn-primary" onClick={getScore} style={{marginTop:"10px"}}>Calculate Score</button>
         </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary" onClick={redirectToSetUp} style={{marginTop:"10px"}}>Calculate Score</button>
+        </div>
+
     <form onSubmit={(e)=>{handleScore(e)}} style={{padding:"12px"}}>
     <div class="form-group" onSubmit={handleScore}>
         <label for="exampleInputEmail1">Win Team</label>
