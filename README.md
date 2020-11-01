@@ -10,4 +10,4 @@
 
 #### Fleague is a league that is a competetion between your friends in ipl season.
 
-#### 450 DSA Cracker doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
+#### I think many of you like to compete with your friends in this ipl season.Then Fleague is the best.
