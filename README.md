@@ -13,7 +13,11 @@
 
 #### I think many of you like to compete with your friends in this ipl season.Then Fleague is the best.
 
-## Documentation
-### [Click for documentation]
+### [Demo]
 
-[Click this link for documentation]: https://github.com/SreeramThatavarthi/fleague/blob/master/FLEAGUE.pdf
+
+## Documentation
+### [Click for documentation] 
+
+[Click for documentation]: https://github.com/SreeramThatavarthi/fleague/blob/master/FLEAGUE.pdf
+[Demo]:https://frndsleague.netlify.app
