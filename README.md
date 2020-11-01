@@ -3,8 +3,9 @@
 [![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)]()
 
 ## Overview 👀
-
-![](./overview.jpeg)
+<p>
+<img src="src/Overview.jpeg" height="400px"  style="border-radius:8px">
+</p>
 
 ## What is Fleague 🤔
 
