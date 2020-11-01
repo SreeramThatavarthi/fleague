@@ -40,6 +40,7 @@ In Fleague,There will be a admin and can be any no of users.
 <br/>
 <div>8.You can stop accepting responses from users by clicking the button "Stop accepting Responses" and can accept again by clicking "Accept Responses".</div>
 <br/>
+
 ### For User:-
 Register yourself and login to select the team thats it.
 
