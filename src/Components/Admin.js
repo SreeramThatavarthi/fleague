@@ -96,6 +96,8 @@ const Admin=()=>{
        
     });
     getScore();
+    handleReset();
+    setwinTeam("");
 }  
    //Setting up the today's match teams
     const handleSubmit=()=>{
@@ -187,16 +189,13 @@ const Admin=()=>{
             )
         }
         </div>
-        <div>
-            <button type="submit" class="btn btn-primary" onClick={handleReset} style={{marginTop:"10px"}}>Reset</button>
-        </div>
-
+        
         <div>
             <button type="submit" class="btn btn-primary" onClick={getScore} style={{marginTop:"10px"}}>Calculate Score</button>
         </div>
 
         <div>
-            <button type="submit" class="btn btn-primary" onClick={redirectToSetUp} style={{marginTop:"10px"}}>Calculate Score</button>
+            <button type="submit" class="btn btn-primary" onClick={redirectToSetUp} style={{marginTop:"10px"}}>Go To SetUp Page</button>
         </div>
 
     <form onSubmit={(e)=>{handleScore(e)}} style={{padding:"12px"}}>

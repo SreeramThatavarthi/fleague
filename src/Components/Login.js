@@ -30,14 +30,16 @@ const Login=()=>{
         console.log(fireUsers);
 
         //looping through the users to match the entered user id and pasword
-        Object.entries(fireUsers).map(([key,value])=>{
-            if(key==user && value.password==password){
-                crct=1;
-                setcontUser(key);
-                history.push('/user');
-                console.log(true);
-            }
-        });
+        if(fireUsers!=null){
+            Object.entries(fireUsers).map(([key,value])=>{
+                if(key==user && value.password==password){
+                    crct=1;
+                    setcontUser(key);
+                    history.push('/user');
+                    console.log(true);
+                }
+            });
+        }
         //If user data doesnt exists ,sending a toast message
         if(crct==0){
             toast("UserName or Password is not correct,Try Again",{type:"error"});
