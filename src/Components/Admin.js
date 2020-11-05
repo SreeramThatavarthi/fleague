@@ -94,7 +94,9 @@ const Admin=()=>{
             }
        
     });
+    setTimeout(function() {
     getScore();
+    }, 1000);
     handleReset();
     setwinTeam("");
 }  
